@@ -1,0 +1,58 @@
+.sidebar {
+  width: 220px; /* largura fixa da sidebar */
+  min-height: 100vh; /* ocupa toda a altura da tela */
+  background-color: #071220;
+  border-right: 1px solid #1E3A5F;
+  padding: 24px 16px;
+  position: fixed; /* fica fixa enquanto o conteúdo rola */
+  top: 0; left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.logo h1 { color: #F5A623; font-size: 1.4rem; }
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.link {
+  color: #94A3B8;
+  text-decoration: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.link:hover { background-color: #1B2A3B; color: #E2E8F0; }
+
+/* NavLink adiciona .ativo automaticamente quando a rota está ativa */
+.ativo {
+  background-color: #1E3A5F;
+  color: #38BDF8;
+  font-weight: 700;
+}
+
+/* Botão Sair */
+.logout {
+  background: none;
+  border: 1px solid #334155;
+  color: #94A3B8;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 10px 14px;
+  border-radius: 6px;
+  width: 100%;
+  text-align: left;
+  transition: border-color 0.15s ease, color 0.15s ease;
+  margin-top: auto; /* empurra o botão para o fundo da sidebar */
+}
+
+.logout:hover {
+  border-color: #EF4444;
+  color: #EF4444;
+}

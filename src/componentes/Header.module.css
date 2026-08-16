@@ -1,0 +1,32 @@
+header {
+  background-color: #1B2A3B;
+  border-bottom: 1px solid #1E3A5F;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  margin-left: 10px; /* desloca o header para a direita, deixando espaço para a sidebar */
+  margin-right: 10px; /* desloca o header para a esquerda, deixando espaço para a sidebar */
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-left: 10px; /* desloca o header para a direita, deixando espaço para a sidebar */
+  margin-right: 10px; /* desloca o header para a esquerda, deixando espaço para a sidebar */
+}
+
+.logo h1 {
+  color: #23f52e;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.logo p {
+  color: #94A3B8;
+  font-size: 0.85rem;
+}
