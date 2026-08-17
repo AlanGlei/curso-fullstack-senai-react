@@ -2,6 +2,7 @@
 // kanban.jsx — ATUALIZADO (Semana 6, Dia 4)
 //
 // MUDANÇAS em relação à versão anterior:
+//
 //   1. Formulário fixo REMOVIDO — substituído pelo modal
 //   2. adicionarTarefa REMOVIDO — substituído por salvarTarefa
 //   3. alternarConcluida REMOVIDO — coluna Concluído representa o estado

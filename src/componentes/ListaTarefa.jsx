@@ -13,6 +13,7 @@
 //
 // O ListaTarefas continua sendo o único lugar que sabe como renderizar
 // uma lista de TarefaItem — o App.jsx não precisa mais fazer isso diretamente.
+//
 // ─────────────────────────────────────────────────────────────────────────────
 
 import TarefaItem from './TarefaItem';
